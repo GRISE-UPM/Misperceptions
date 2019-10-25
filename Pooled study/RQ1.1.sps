@@ -1,0 +1,12 @@
+﻿* Encoding: UTF-8.
+
+  
+ FREQUENCIES VARIABLES=Most_Effective
+  /ORDER=ANALYSIS.
+
+NPAR TESTS
+  /CHISQUARE=Most_Effective
+  /EXPECTED=EQUAL
+  /MISSING ANALYSIS.
+
+
